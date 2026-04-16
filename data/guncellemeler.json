@@ -1,0 +1,38 @@
+[
+  {
+    "tarih": "2024-06-01",
+    "etkilenen_paket": "Pro",
+    "etkilenen_madde": "4.1",
+    "degisiklik": "Pro paketi için iade süresi satın alım tarihinden itibaren 14 günden 30 güne çıkarılmıştır."
+  },
+  {
+    "tarih": "2024-08-15",
+    "etkilenen_paket": "Enterprise",
+    "etkilenen_madde": "4.1",
+    "degisiklik": "Enterprise paketi için iade süresi 60 güne çıkarılmıştır."
+  },
+  {
+    "tarih": "2024-09-10",
+    "etkilenen_paket": "Basic",
+    "etkilenen_madde": "3.2",
+    "degisiklik": "Basic paket için aylık API çağrı limiti 1000 olarak belirlenmiştir (önceden API erişimi yoktu)."
+  },
+  {
+    "tarih": "2024-10-05",
+    "etkilenen_paket": "Pro",
+    "etkilenen_madde": "3.2",
+    "degisiklik": "Pro paket aylık API çağrı limiti 10000'den 50000'e çıkarılmıştır."
+  },
+  {
+    "tarih": "2024-11-20",
+    "etkilenen_paket": "Genel",
+    "etkilenen_madde": "4.3",
+    "degisiklik": "Tüm paketler için iade işlem süresi 7 iş gününden 5 iş gününe indirilmiştir."
+  },
+  {
+    "tarih": "2025-01-15",
+    "etkilenen_paket": "Genel",
+    "etkilenen_madde": "7.1",
+    "degisiklik": "Sözleşme fesih bildirim süresi 30 günden 15 güne indirilmiştir."
+  }
+]

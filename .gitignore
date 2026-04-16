@@ -1,0 +1,57 @@
+# Ortam ve gizli dosyalar
+.env
+.env.local
+.env.*.local
+
+# ChromaDB ve cache
+chroma_db/
+.cache/
+*.cache
+
+# HuggingFace model cache
+~/.cache/huggingface/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Sanal ortam
+.venv/
+venv/
+env/
+ENV/
+
+# Build
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Paket yöneticisi
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest / test
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MD dosyaları (README.md hariç)
+PLAN.md
+ARCHITECTURE.md
+DATA_SCHEMA.md

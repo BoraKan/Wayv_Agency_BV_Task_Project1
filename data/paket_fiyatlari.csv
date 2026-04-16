@@ -1,0 +1,4 @@
+paket_adi,aylik_fiyat_tl,yillik_fiyat_tl,kullanici_limiti,depolama_gb,destek_turu,api_erisimi,api_aylik_limit
+Basic,99,990,1,10,Standart E-posta,Hayir,0
+Pro,299,2990,10,100,Oncelikli E-posta ve Chat,Evet,10000
+Enterprise,999,9990,Sinirsiz,1000,7/24 Ozel Musteri Temsilcisi,Evet,500000

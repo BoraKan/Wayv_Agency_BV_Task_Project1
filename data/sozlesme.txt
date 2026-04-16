@@ -1,0 +1,40 @@
+ÖRNEK TEKNOLOJİ A.Ş. MÜŞTERİ HİZMET SÖZLEŞMESİ
+
+Madde 1: Taraflar
+Bu sözleşme, bir tarafta şirket merkezi İstanbul'da bulunan ÖRNEK TEKNOLOJİ A.Ş. ("Şirket") ile diğer tarafta hizmeti kullanacak gerçek veya tüzel kişi ("Müşteri") arasında akdedilmiştir.
+
+Madde 2: Sözleşmenin Konusu
+İşbu sözleşmenin konusu, Şirket tarafından sunulan yazılım hizmetlerinin Müşteri tarafından belirlenen paket dahilinde kullanımına ilişkin tarafların hak ve yükümlülüklerinin belirlenmesidir.
+
+Madde 3.1: Hizmet Kapsamı
+Şirket, Müşteri'ye seçmiş olduğu üyelik paketinde belirtilen kullanıcı sayısı, depolama alanı ve destek seviyesinde hizmet sunmayı taahhüt eder. Paket özellikleri ve fiyatlandırma, güncel fiyat listesinde belirtildiği gibidir.
+
+Madde 3.2: API Kullanım Kuralları
+Her paket için aylık API çağrı limitleri ayrıca belirlenmiştir. Limit aşımı durumunda ek ücret uygulanır veya erişim geçici olarak kısıtlanabilir. API kullanımı Şirket'in adil kullanım politikasına tabidir.
+
+Madde 4.1: Standart İade Süresi
+Standart iade süresi satın alım tarihinden itibaren 14 gündür. Bu süre içinde iade talep eden müşterilere ödemeleri tam olarak geri iade edilir. İade talebi bu süreden sonra yapılamaz.
+
+Madde 4.2: İptal Talep Yöntemi
+İptal taleplerinin yazılı olarak info@ornekteknoloji.com adresine iletilmesi gerekmektedir. Sözlü veya telefon üzerinden yapılan talepler işleme alınmaz. Yazılı talep tarihi, iptal başlangıç tarihi olarak kabul edilir.
+
+Madde 4.3: İade İşlem Süresi
+İade işlemleri, talebin onaylanmasından itibaren en geç 7 iş günü içinde Müşteri'nin ödeme yaptığı yönteme iade edilir. Banka işlem süreleri bu süreye dahil değildir.
+
+Madde 5.1: Ödeme Koşulları
+Aylık paketler peşin olarak ödenir ve her ayın aynı gününde otomatik olarak yenilenir. Yenileme başarısız olursa hesap 3 gün içinde askıya alınır.
+
+Madde 5.2: Yıllık Paket İndirimi
+Yıllık paketlerde aylık fiyat üzerinden belirli oranda indirim uygulanır ve ödeme peşin olarak tahsil edilir. Yıllık paketlerde ara dönem iade yapılmaz.
+
+Madde 6: Gizlilik ve Veri Koruma
+Şirket, Müşteri'ye ait tüm verileri 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) hükümleri çerçevesinde korumayı taahhüt eder. Müşteri verileri, Müşteri'nin açık rızası olmadan üçüncü taraflarla paylaşılmaz.
+
+Madde 7.1: Sözleşmenin Feshi
+Taraflardan herhangi biri, 30 gün önceden yazılı bildirimde bulunarak sözleşmeyi tek taraflı olarak feshedebilir. Fesih bildirimi e-posta yoluyla yapılabilir.
+
+Madde 7.2: Haklı Fesih
+Sözleşmeye aykırı davranış halinde, karşı taraf tek taraflı olarak sözleşmeyi derhal ve bildirimsiz olarak feshedebilir.
+
+Madde 8: Uyuşmazlık Çözümü
+Bu sözleşmeden doğabilecek uyuşmazlıkların çözümünde İstanbul Merkez (Çağlayan) Mahkemeleri ve İcra Daireleri yetkilidir. Sözleşme Türk hukukuna tabidir.
