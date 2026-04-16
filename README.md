@@ -130,7 +130,6 @@ python main.py -q "Pro paketin aylık fiyatı nedir?"
 
 ## Mimari
 
-Detaylı mimari kararlar için [`ARCHITECTURE.md`](ARCHITECTURE.md) dosyasına bakın.
 
 ### Veri Akışı
 
@@ -186,23 +185,22 @@ Detaylı mimari kararlar için [`ARCHITECTURE.md`](ARCHITECTURE.md) dosyasına b
 │   └── guncellemeler.json      # Tarihli değişiklik logları
 ├── src/
 │   ├── loaders/
+│   │   ├── __init__.py
 │   │   ├── txt_loader.py       # Madde bazlı chunking
-│   │   ├── csv_loader.py       # Satır → yapısal cümle
-│   │   └── json_loader.py      # Log → tarihli chunk
-│   ├── embedder.py             # HuggingFace multilingual embedding
-│   ├── vector_store.py         # ChromaDB yönetimi
-│   ├── hash_check.py           # MD5 tabanlı değişiklik algılama
-│   ├── retriever.py            # Similarity + priority sorting
-│   ├── llm.py                  # OpenRouter ChatOpenAI
-│   └── rag_chain.py            # Retrieval + Generation (LCEL)
+│   │   ├── csv_loader.py       # Satır → yapısal cümle (tablo bağlamı korunur)
+│   │   └── json_loader.py      # Log → tarihli chunk + metadata
+│   ├── __init__.py
+│   ├── embedder.py             # HuggingFace multilingual embedding (singleton)
+│   ├── vector_store.py         # ChromaDB kurulum ve rebuild
+│   ├── hash_check.py           # MD5 tabanlı otomatik değişiklik algılama
+│   ├── retriever.py            # Similarity search + kaynak öncelik sıralaması
+│   ├── llm.py                  # OpenRouter / OpenAI ChatOpenAI
+│   └── rag_chain.py            # Retrieval + Generation (LCEL) + inline atıf parse
 ├── chroma_db/                  # ChromaDB persistent storage (gitignore)
-├── ingest.py                   # Indexleme pipeline'ı
+├── ingest.py                   # Veri indexleme pipeline'ı
 ├── main.py                     # CLI giriş noktası
 ├── requirements.txt
 ├── .env.example
-├── PLAN.md                     # Uygulama planı
-├── ARCHITECTURE.md             # Mimari kararlar
-├── DATA_SCHEMA.md              # Veri şeması
 └── README.md
 ```
 
